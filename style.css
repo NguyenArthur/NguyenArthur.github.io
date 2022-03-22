@@ -1,0 +1,27 @@
+#profile{
+    height: 50vh;
+    border-radius: 1000px;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 98vh;
+}
+#bannerContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#banner h1{
+    width: 100%;
+}
+#myself{
+    width: 50%;
+}
+#links img{
+    height: 5vh;
+    margin: 2vw;
+}
