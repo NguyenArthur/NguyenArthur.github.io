@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+
+
+*{
+    font-family: 'Lexend', sans-serif;
+    overflow-x: hidden;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
 #profile{
     height: 50vh;
     border-radius: 1000px;
@@ -7,6 +23,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 98vh;
+    width: 100vw;
 }
 #bannerContent{
     display: flex;
@@ -24,4 +41,43 @@
 #links img{
     height: 5vh;
     margin: 2vw;
+}
+
+#firstNav p{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 3.5vh;
+    margin-bottom: auto;
+
+}
+
+#firstNav{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height : 10vh;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    transition: 0.4s;
+}
+
+#firstNav:hover{
+    border: 2px solid black;
+}
+
+#skills{
+    height: 100vh;
+}
+.skillSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.skillSection h3{
+    width: 100%;
+}
+.skillSection img{
+    height: 10vh;
 }
