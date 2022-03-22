@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="app.js" defer></script>
 <div id="banner">
     <h1>Welcome to my portefolio...</h1>
     <div id="bannerContent">
-        <img id="profile" src="img/pfp.jpg">
+        <div data-aos="fade-right" data-aos-duration="1000"><img id="profile" src="img/pfp.jpg"></div>
         <div id="myself">
             <p id="animeText"></p>
             <div id="links">
@@ -21,7 +27,20 @@
             </div>
         </div>
     </div>
-<a>Learn more</a>
+    <a id="firstNav" href="#skills"><p>Learn more</p></a>
+</div>
+<div id="skills">
+    <h2>MY SKILLS</h2>
+    <div class="skillSection">
+        <h3>WEB SKILLS</h3>
+        <div data-aos="zoom-in"><img src="img/html.png"></div>
+        <div data-aos="zoom-in"><img src="img/css.png"></div>
+        <div data-aos="zoom-in"><img src="img/js.png"></div>
+        <div data-aos="zoom-in"><img src="img/ruby.png"></div>
+        <div data-aos="zoom-in"><img src="img/php.png"></div>
+        <div data-aos="zoom-in"><img src="img/vue.png"></div>
+        <div data-aos="zoom-in"><img src="img/django.png"></div>
+    </div>
 </div>
 
 </body>
