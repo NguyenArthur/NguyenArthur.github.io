@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
 
+@keyframes jump {
+    from {
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+
+    to {
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+
+}
 
 *{
     font-family: 'Lexend', sans-serif;
     overflow-x: hidden;
 
+}
+body{
+    margin: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -22,7 +37,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 98vh;
+    height: 100vh;
     width: 100vw;
 }
 #bannerContent{
@@ -44,40 +59,85 @@ a{
 }
 
 #firstNav p{
-
     width: 100%;
     text-align: center;
-    margin-top: 3.5vh;
-    margin-bottom: auto;
+    transition: 0.4s;
 
 }
 
 #firstNav{
-    width: 30%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height : 10vh;
-    border: 2px solid transparent;
-    border-radius: 100px;
+    height : 15vh;
     transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+
+}
+#firstNav:hover p{
+    transform: scale(1.1);
 }
 
-#firstNav:hover{
-    border: 2px solid black;
+
+#down{
+    height: 4vh;
+    width: auto;
+    margin-left:auto;
+    margin-right: auto;
+    animation-duration: 1s;
+    animation-name: jump;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-#skills{
-    height: 100vh;
+hr{
+    margin-top: 20vh;
+    height: 3vh;
+    width: 50vw;
+    background-color: black;
+    border: none;
+    position: relative;
+}
+
+
+
+#skills h2{
+    width: 100%;
 }
 .skillSection{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.skillGallery{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    width: 40%;
 
 }
-.skillSection h3{
-    width: 100%;
+
+#skills h3{
+    height: 60vh;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+    background-color: #232323;
+    color: white;
+    width: 5%;
+    padding-right: 3%;
+    margin: 0;
+
 }
-.skillSection img{
-    height: 10vh;
+.skillGallery img{
+    height: 11vh;
+    margin: 3vh 3vw;
+}
+
+.description{
+    width: 40%;
+    color: black;
+    background-color: #FDF6EC;
 }
