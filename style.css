@@ -120,19 +120,20 @@ hr{
 }
 
 #skills h3{
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 7vw;
     writing-mode: vertical-rl;
     text-orientation: mixed;
     text-align: center;
     background-color: #232323;
     color: white;
-    width: 5%;
-    padding-right: 3%;
     margin: 0;
 
 }
 .skillGallery img{
-    height: 11vh;
+    height: 15vw;
     margin: 3vh 3vw;
 }
 
