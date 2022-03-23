@@ -137,10 +137,12 @@ hr{
 }
 
 .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
     width: 40%;
     color: black;
     background-color: #FDF6EC;
-    padding-top: 35%;
-    padding-left: 5%;
-    padding-right: 5%;
+
 }
