@@ -16,13 +16,14 @@
 *{
     font-family: 'Lexend', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 
 }
 body{
     margin: 0;
 }
 html{
-    scroll-behavior: smooth;
+
 }
 
 a{
