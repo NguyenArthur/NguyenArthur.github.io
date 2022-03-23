@@ -56,8 +56,11 @@ a{
 #links img{
     height: 5vh;
     margin: 2vw;
+    transition: 0.4s;
 }
-
+#links img:hover{
+    transform: scale(1.2);
+}
 #firstNav p{
     width: 100%;
     text-align: center;
@@ -110,6 +113,7 @@ hr{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10vh;
+    min-height: 50vh
 }
 .skillGallery{
     display: flex;
@@ -133,7 +137,7 @@ hr{
 
 }
 .skillGallery img{
-    height: 15vw;
+    height: 7vh;
     margin: 3vh 3vw;
 }
 
