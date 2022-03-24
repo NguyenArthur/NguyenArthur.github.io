@@ -96,7 +96,6 @@ a{
 }
 
 hr{
-    margin-top: 20vh;
     height: 3vh;
     width: 50vw;
     background-color: black;
@@ -151,4 +150,12 @@ hr{
     color: black;
     background-color: #FDF6EC;
 
+}
+
+footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
