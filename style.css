@@ -13,6 +13,26 @@
 
 }
 
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        font-size: 0;
+    }
+    to {
+        opacity: 1;
+        font-size: 1em;
+    }
+}
+
+@keyframes slide-left {
+    from{
+
+    }
+    to {
+        left: 0;
+    }
+}
+
 *{
     font-family: 'Lexend', sans-serif;
     overflow-x: hidden;
@@ -24,6 +44,10 @@ body{
 }
 html{
 
+}
+
+p{
+    font-size: 1em;
 }
 
 a{
@@ -113,7 +137,8 @@ hr{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10vh;
-    min-height: 50vh
+    min-height: 50vh;
+    height: 100vh;
 }
 .skillGallery{
     display: flex;
@@ -151,6 +176,54 @@ hr{
     background-color: #FDF6EC;
 
 }
+.myStory{
+    margin-top: 15vh;
+    margin-bottom: 40vh;
+}
+.storyBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.storyline{
+    background-color: black;
+    width: 1vw;
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.storyDate{
+    margin-right: auto;
+    margin-left: auto;
+    transition: 1s;
+}
+
+
+.storyDescription{
+    width: 100vw;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.storyDate:hover{
+    height: 100%;
+}
+.storyDescription img{
+    height: 8em;
+    margin-right: 10vw;
+}
+.storyDescription p{
+    width: 40vw;
+    margin-left: 10vw;
+}
+.storyDate:hover + .storyDescription{
+    display: flex;
+    animation-duration: 1s;
+    animation-name: fade-in;
+}
+
 
 footer{
     height: 30vh;
