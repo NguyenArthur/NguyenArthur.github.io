@@ -58,7 +58,7 @@ h1{
     overflow-x: fragments;
     display: flex;
     flex-wrap: wrap;
-    font-size: 250%;
+    font-size: 400%;
 }
 
 
@@ -83,11 +83,11 @@ a{
     background-color: black;
     display: flex;
     height: 0;
-    width: 26%;
+    width: 23em;
     flex-wrap: wrap;
     overflow-y: hidden;
     position: absolute;
-    padding-bottom: 27%;
+    padding-bottom: 23em;
 }
 
 
@@ -106,7 +106,7 @@ a{
 
 
 #bannerContent{
-    margin-top: 5%;
+    margin-top: 7em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
