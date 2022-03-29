@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap');
 @keyframes jump {
     from {
         padding-bottom: 0px;
@@ -41,28 +42,57 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
 
+
 }
+
 body{
     margin: 0;
 }
-html{
 
+
+h1{
+    margin: 2vh 2vw;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    overflow-y: hidden;
+    overflow-x: fragments;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 250%;
 }
 
+
 h2{
-    margin-left: 3vw ;
+    margin-left: 2vw ;
+    font-family: 'League Spartan', sans-serif;
+
+}
+h3{
+    font-family: 'League Spartan', sans-serif;
 }
 
 p{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 a{
     color: black;
     text-decoration: none;
 }
+#titleBox{
+    background-color: black;
+    display: flex;
+    height: 0;
+    width: 26%;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    position: absolute;
+    padding-bottom: 27%;
+}
+
+
 #profile{
-    height: 50vh;
+    height: 22em;
     border-radius: 1000px;
 }
 #banner{
@@ -76,6 +106,7 @@ a{
 
 
 #bannerContent{
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -91,7 +122,7 @@ a{
 
 #links{
     display: flex;
-    justify-content: space-between;
+
 }
 #links img{
     height: 7vh;
