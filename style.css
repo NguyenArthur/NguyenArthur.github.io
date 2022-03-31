@@ -120,18 +120,19 @@ a{
     width: 50%;
 }
 
-#links{
+.links{
     display: flex;
 
 }
-#links img{
+.links img{
     height: 7vh;
     margin: 2vw;
     transition: 0.4s;
 }
-#links img:hover{
+.links img:hover{
     transform: scale(1.2);
 }
+
 #firstNav p{
     width: 100%;
     text-align: center;
@@ -185,6 +186,7 @@ hr{
     margin-top: 10vh;
     min-height: 50vh;
     height: 100vh;
+    overflow-y: hidden;
 }
 .skillGallery{
     display: flex;
@@ -194,6 +196,7 @@ hr{
     align-items: center;
 
 }
+
 
 #skills h3{
     display: flex;
@@ -288,9 +291,10 @@ hr{
 
 
 footer{
-    height: 30vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-color: #FDF6EC;
 }
