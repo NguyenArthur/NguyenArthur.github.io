@@ -72,8 +72,15 @@ h3{
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
+
+@media only screen and (max-width: 600px) {
+    p{
+        font-size: 1.6vh;
+    }
+}
+
 
 a{
     color: #232323;
@@ -213,14 +220,15 @@ hr{
 
 }
 .skillGallery img{
-    height: 5.5em;
+    height: 5em;
     margin: 3vh 5vw;
 }
 
 .description{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 0 5%;
     width: 40%;
     color: #232323;
@@ -256,6 +264,7 @@ hr{
 .storyDescription{
     display: flex;
     width: 100vw;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s;
@@ -274,7 +283,9 @@ hr{
 }
 .storyDescription p{
     width: 40vw;
-    margin-left: 10vw;
+    margin-left: 7vw;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .storyDate:hover + .storyDescription{
@@ -287,6 +298,16 @@ hr{
     font-size: 1em;
     opacity: 1;
     height: auto;
+}
+
+.newSkills{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newSkills img{
+    height: 3em;
 }
 
 
