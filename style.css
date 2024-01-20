@@ -304,7 +304,7 @@ hr{
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .newSkills img{
     height: 3em;
